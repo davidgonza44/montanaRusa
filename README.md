@@ -13,20 +13,20 @@ optimizar la forma de ciertos tramos de la vía y mejorar la experiencia del usu
 Finalmente, se necesita resolver un sistema de ecuaciones para determinar las
 fuerzas que actúan en los puntos críticos de la estructura.
 
-#Caracteristicas principales
+# Caracteristicas principales
 - Modelado de trayectorias suaves usando trazadores cúbicos.
 - Análisis de estabilidad estructural con polinomios de mínimos cuadrados.
 - Optimización de la forma de la vía con polinomios ortogonales.
 - Resolución de sistemas de ecuaciones para calcular fuerzas en puntos crítico
 
-#Requisitos del sistema
+# Requisitos del sistema
 
  Python 3.x
 - numpy
 - matplotlib
 - scipy
 
-#Instalacion
+# Instalacion
 1.Clona el repositorio: `git clone <URL del repositorio>`
 2. Navega al directorio del proyecto: `cd Evaluacion-3-maria`
 3. Instala las dependencias: `pip install -r requirements.txt`

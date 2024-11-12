@@ -20,7 +20,7 @@ def ajuste_chebyshev_mejorado(x_data, y_data, grado=3):
         raise ValueError("Los arrays de datos no pueden estar vacíos")
     if len(x_data) != len(y_data):
         raise ValueError("Los arrays x_data y y_data deben tener la misma longitud")
-    
+
     # Normalizar los datos al intervalo [-1, 1] para mejor ajuste
     x_norm = 2 * (x_data - np.min(x_data)) / (np.max(x_data) - np.min(x_data)) - 1
 
@@ -70,13 +70,13 @@ def main():
     y_data = np.array([0.5, 0.8, 1.0, 0.9, 1.2, 0.7])
 
     # Calcular errores para diferentes grados
-    grados = [3, 4, 5]
+    grados = [3,4,5]
     for grado in grados:
         error = calcular_error(x_data, y_data, grado)
         print(f"Error RMS para grado {grado}: {error:.6f}")
 
     # Realizar el ajuste final y graficar solo una vez
-    x_final, y_final, error = ajuste_chebyshev_mejorado(x_data, y_data, grado=5)
+    x_final, y_final, error = ajuste_chebyshev_mejorado(x_data, y_data, grado=3)
 
     plt.show()
 
