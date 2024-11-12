@@ -1,0 +1,14 @@
+setup.py
+Evaluacion_3_maria.egg-info/PKG-INFO
+Evaluacion_3_maria.egg-info/SOURCES.txt
+Evaluacion_3_maria.egg-info/dependency_links.txt
+Evaluacion_3_maria.egg-info/top_level.txt
+src/__init__.py
+src/ajuste_chebyshev3.py
+src/minimos_cuadrados2.py
+src/resolucion_ecuaciones4.py
+src/trazador_cubico1.py
+test/__init__.py
+test/test_ajuste_chebyshev3.py
+test/test_minimos_cuadrados2.py
+test/test_trazador_cubico1.py
