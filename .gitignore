@@ -1,0 +1,28 @@
+# Archivos de caché de Python
+__pycache__/
+*/__pycache__/
+
+# Archivos compilados de Python
+*.pyc
+*.cpython-311.pyc
+ajuste_chebyshev.cpython-311.pyc
+ajuste_chebyshev3.cpython-311.pyc
+test_ajuste_chebyshev.cpython-311.pyc
+trazador_cubico1.cpython-311.pyc
+
+
+# Archivos de información de distribución
+*.egg-info/
+Evaluacion_3_maria.egg-info/
+dependency_links.txt
+PKG-INFO
+SOURCES.txt
+top_level.txt
+
+# Archivos de IDE
+.vscode/
+.idea/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
